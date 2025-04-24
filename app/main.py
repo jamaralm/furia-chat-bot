@@ -2,7 +2,6 @@ from fastapi import FastAPI, Request
 from telegram import Update
 from telegram.ext import Application
 from app.bot import create_bot
-import os
 
 app = FastAPI()
 bot_app: Application = None  # variável global
