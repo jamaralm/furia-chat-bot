@@ -14,8 +14,8 @@ async def create_bot():
     #Registro de Comandos
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help))
-    app.add_handler(CommandHandler("proximosjogos", next_match))
-    app.add_handler(CommandHandler("resultados", previows_match)) 
+    app.add_handler(CommandHandler("proximapartida", next_match))
+    app.add_handler(CommandHandler("ultimapartida", previows_match)) 
     app.add_handler(CommandHandler("jogadores", players))
 
     await app.initialize()

@@ -1,12 +1,82 @@
 [
-    {"data": "22/04/2025", "result": "FURIA 2-0 Astralis"},
-    {"data": "19/04/2025", "result": "FURIA 1-2 Team Liquid"},
-    {"data": "15/04/2025", "result": "FURIA 2-1 G2 Esports"},
-    {"data": "12/04/2025", "result": "FURIA 0-2 NAVI"},
-    {"data": "10/04/2025", "result": "FURIA 2-0 Cloud9"},
-    {"data": "07/04/2025", "result": "FURIA 2-1 Vitality"},
-    {"data": "05/04/2025", "result": "FURIA 1-2 MOUZ"},
-    {"data": "02/04/2025", "result": "FURIA 2-0 Heroic"},
-    {"data": "29/03/2025", "result": "FURIA 0-2 FaZe Clan"},
-    {"data": "26/03/2025", "result": "FURIA 2-1 OG"}
-  ]
+  {
+    "date": "22/04/2025",
+    "result": "FURIA 2-0 Astralis",
+    "maps": {"Mirage": "13-7", "Nuke": "13-10"},
+    "highlight": "KSCERATO",
+    "tournament": "ESL Pro League",
+    "notes": "KSCERATO brilhou com 45 eliminações e 1.45 de rating."
+  },
+  {
+    "date": "19/04/2025",
+    "result": "FURIA 1-2 Team Liquid",
+    "maps": {"Inferno": "16-12", "Ancient": "9-13", "Overpass": "10-13"},
+    "highlight": "yuurih",
+    "tournament": "ESL Pro League",
+    "notes": "Partida disputada com comeback da Liquid no último mapa."
+  },
+  {
+    "date": "15/04/2025",
+    "result": "FURIA 2-1 G2 Esports",
+    "maps": {"Nuke": "13-11", "Vertigo": "7-13", "Mirage": "13-9"},
+    "highlight": "arT",
+    "tournament": "BLAST Premier",
+    "notes": "arT foi o diferencial com jogadas agressivas decisivas."
+  },
+  {
+    "date": "12/04/2025",
+    "result": "FURIA 0-2 NAVI",
+    "maps": {"Anubis": "8-13", "Overpass": "10-13"},
+    "highlight": "s1mple (NAVI)",
+    "tournament": "BLAST Premier",
+    "notes": "NAVI dominou com controle total dos mapas."
+  },
+  {
+    "date": "10/04/2025",
+    "result": "FURIA 2-0 Cloud9",
+    "maps": {"Ancient": "13-10", "Nuke": "13-11"},
+    "highlight": "chelo",
+    "tournament": "IEM Rio",
+    "notes": "chelo garantiu rounds importantes com clutchs 1v2."
+  },
+  {
+    "date": "07/04/2025",
+    "result": "FURIA 2-1 Vitality",
+    "maps": {"Overpass": "13-11", "Vertigo": "11-13", "Inferno": "13-8"},
+    "highlight": "drop",
+    "tournament": "IEM Rio",
+    "notes": "Vitality perdeu muitos rounds econômicos."
+  },
+  {
+    "date": "05/04/2025",
+    "result": "FURIA 1-2 MOUZ",
+    "maps": {"Mirage": "13-10", "Nuke": "10-13", "Ancient": "11-13"},
+    "highlight": "frozen (MOUZ)",
+    "tournament": "IEM Rio",
+    "notes": "frozen liderou MOUZ com 50 kills nos três mapas."
+  },
+  {
+    "date": "02/04/2025",
+    "result": "FURIA 2-0 Heroic",
+    "maps": {"Inferno": "13-9", "Overpass": "13-6"},
+    "highlight": "yuurih",
+    "tournament": "IEM Rio",
+    "notes": "yuurih dominou os dois mapas com K/D positivo."
+  },
+  {
+    "date": "29/03/2025",
+    "result": "FURIA 0-2 FaZe Clan",
+    "maps": {"Ancient": "7-13", "Mirage": "8-13"},
+    "highlight": "broky (FaZe)",
+    "tournament": "IEM Rio",
+    "notes": "FaZe teve melhor controle de economia e setups defensivos."
+  },
+  {
+    "date": "26/03/2025",
+    "result": "FURIA 2-1 OG",
+    "maps": {"Vertigo": "13-11", "Overpass": "9-13", "Nuke": "13-8"},
+    "highlight": "KSCERATO",
+    "tournament": "IEM Rio",
+    "notes": "KSCERATO fechou o mapa decisivo com ACE no último round."
+  }
+]

@@ -1,12 +1,12 @@
 [
-    {"data": "25/04/2025", "teams": "FURIA x Team Liquid"},
-    {"data": "27/04/2025", "teams": "FURIA x G2 Esports"},
-    {"data": "30/04/2025", "teams": "FURIA x Vitality"},
-    {"data": "02/05/2025", "teams": "FURIA x NAVI"},
-    {"data": "05/05/2025", "teams": "FURIA x Cloud9"},
-    {"data": "08/05/2025", "teams": "FURIA x MOUZ"},
-    {"data": "11/05/2025", "teams": "FURIA x Heroic"},
-    {"data": "14/05/2025", "teams": "FURIA x FaZe Clan"},
-    {"data": "17/05/2025", "teams": "FURIA x OG"},
-    {"data": "20/05/2025", "teams": "FURIA x ENCE"}
-  ]
+  {"date": "25/04/2025", "time": "16:00", "opponent": "Team Liquid", "tournament": "IEM Cologne"},
+  {"date": "27/04/2025", "time": "18:30", "opponent": "G2 Esports", "tournament": "IEM Cologne"},
+  {"date": "30/04/2025", "time": "15:00", "opponent": "Vitality", "tournament": "IEM Cologne"},
+  {"date": "02/05/2025", "time": "17:45", "opponent": "NAVI", "tournament": "BLAST Premier"},
+  {"date": "05/05/2025", "time": "14:00", "opponent": "Cloud9", "tournament": "BLAST Premier"},
+  {"date": "08/05/2025", "time": "20:00", "opponent": "MOUZ", "tournament": "ESL Pro League"},
+  {"date": "11/05/2025", "time": "13:30", "opponent": "Heroic", "tournament": "ESL Pro League"},
+  {"date": "14/05/2025", "time": "19:00", "opponent": "FaZe Clan", "tournament": "ESL Pro League"},
+  {"date": "17/05/2025", "time": "21:00", "opponent": "OG", "tournament": "ESL Pro League"},
+  {"date": "20/05/2025", "time": "16:30", "opponent": "ENCE", "tournament": "IEM Dallas"}
+]
