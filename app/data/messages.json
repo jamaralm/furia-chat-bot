@@ -1,0 +1,6 @@
+{
+    "start": "🔥 Bem-vindo ao FURIA CSBot!\nUse /help para ver todos os comandos disponíveis.",
+    "help": "🛠 Comandos disponíveis:\n/start - Iniciar o bot\n/help - Ver comandos\n/proximosjogos - Ver próximos jogos\n/ultimosresultados - Ver resultados recentes\n/jogadores - Ver jogadores da FURIA",
+    "unknown_command": "❌ Comando não reconhecido. Use /help para ver os comandos disponíveis.",
+    "error": "⚠️ Ocorreu um erro. Tente novamente mais tarde."
+}

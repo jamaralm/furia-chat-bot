@@ -1,5 +1,5 @@
 from telegram.ext import ApplicationBuilder, CommandHandler
-from app.handlers.handlers_commands import start, help, next_match, previows_match
+from app.handlers.handlers_commands import start, help, next_match, previows_match, players
 from dotenv import load_dotenv
 import os
 
@@ -14,8 +14,9 @@ async def create_bot():
     #Registro de Comandos
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help))
-    app.add_handler(CommandHandler("nextmatch", next_match))
-    app.add_handler(CommandHandler("previowsmatch", previows_match)) 
+    app.add_handler(CommandHandler("proximosjogos", next_match))
+    app.add_handler(CommandHandler("resultados", previows_match)) 
+    app.add_handler(CommandHandler("jogadores", players))
 
     await app.initialize()
     await app.bot.set_webhook(f"{ngrok_url}/webhook")
