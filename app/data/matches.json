@@ -1,12 +1,74 @@
 [
-  {"date": "25/04/2025", "time": "16:00", "opponent": "Team Liquid", "tournament": "IEM Cologne"},
-  {"date": "27/04/2025", "time": "18:30", "opponent": "G2 Esports", "tournament": "IEM Cologne"},
-  {"date": "30/04/2025", "time": "15:00", "opponent": "Vitality", "tournament": "IEM Cologne"},
-  {"date": "02/05/2025", "time": "17:45", "opponent": "NAVI", "tournament": "BLAST Premier"},
-  {"date": "05/05/2025", "time": "14:00", "opponent": "Cloud9", "tournament": "BLAST Premier"},
-  {"date": "08/05/2025", "time": "20:00", "opponent": "MOUZ", "tournament": "ESL Pro League"},
-  {"date": "11/05/2025", "time": "13:30", "opponent": "Heroic", "tournament": "ESL Pro League"},
-  {"date": "14/05/2025", "time": "19:00", "opponent": "FaZe Clan", "tournament": "ESL Pro League"},
-  {"date": "17/05/2025", "time": "21:00", "opponent": "OG", "tournament": "ESL Pro League"},
-  {"date": "20/05/2025", "time": "16:30", "opponent": "ENCE", "tournament": "IEM Dallas"}
+  {
+    "id": 3,
+    "date": "30/04/2025",
+    "time": "15:00",
+    "opponent": "Vitality",
+    "tournament": "IEM Cologne",
+    "expected_highlight": "drop",
+    "notes": "Vitality \u00e9 sempre um desafio t\u00e9cnico. Olho em ZywOo e nos setups defensivos franceses."
+  },
+  {
+    "id": 4,
+    "date": "02/05/2025",
+    "time": "17:45",
+    "opponent": "NAVI",
+    "tournament": "BLAST Premier",
+    "expected_highlight": "KSCERATO",
+    "notes": "Jogo com tens\u00e3o garantida. FURIA tenta conter a estrela s1mple e manter bom desempenho recente."
+  },
+  {
+    "id": 5,
+    "date": "05/05/2025",
+    "time": "14:00",
+    "opponent": "Cloud9",
+    "tournament": "BLAST Premier",
+    "expected_highlight": "chelo",
+    "notes": "Encontro de estilos diferentes. chelo costuma brilhar contra C9 com clutchs decisivos."
+  },
+  {
+    "id": 6,
+    "date": "08/05/2025",
+    "time": "20:00",
+    "opponent": "MOUZ",
+    "tournament": "ESL Pro League",
+    "expected_highlight": "KSCERATO",
+    "notes": "MOUZ vem forte, liderado por frozen. Espera-se confronto equilibrado em mapas como Mirage e Nuke."
+  },
+  {
+    "id": 7,
+    "date": "11/05/2025",
+    "time": "13:30",
+    "opponent": "Heroic",
+    "tournament": "ESL Pro League",
+    "expected_highlight": "yuurih",
+    "notes": "Heroic \u00e9 perigosa taticamente. FURIA deve apostar em agressividade e controle econ\u00f4mico."
+  },
+  {
+    "id": 8,
+    "date": "14/05/2025",
+    "time": "19:00",
+    "opponent": "FaZe Clan",
+    "tournament": "ESL Pro League",
+    "expected_highlight": "arT",
+    "notes": "Reedi\u00e7\u00e3o de rivalidades passadas. arT \u00e9 pe\u00e7a-chave contra a disciplina t\u00e1tica da FaZe."
+  },
+  {
+    "id": 9,
+    "date": "17/05/2025",
+    "time": "21:00",
+    "opponent": "OG",
+    "tournament": "ESL Pro League",
+    "expected_highlight": "drop",
+    "notes": "FURIA tem bom retrospecto contra OG. Jogo pode decidir classifica\u00e7\u00e3o para a pr\u00f3xima fase."
+  },
+  {
+    "id": 10,
+    "date": "20/05/2025",
+    "time": "16:30",
+    "opponent": "ENCE",
+    "tournament": "IEM Dallas",
+    "expected_highlight": "KSCERATO",
+    "notes": "Estreia na IEM Dallas. ENCE tem setups s\u00f3lidos e ser\u00e1 teste importante para FURIA."
+  }
 ]
