@@ -1,47 +1,52 @@
 [
-    {
-      "name": "KSCERATO",
-      "role": "Rifler",
-      "statistcs": {
-        "KDA": "1.32",
-        "HS%": "55%",
-        "Rating": "1.18"
-      }
-    },
-    {
-      "name": "yuurih",
-      "role": "Rifler",
-      "statistcs": {
-        "KDA": "1.25",
-        "HS%": "51%",
-        "Rating": "1.15"
-      }
-    },
-    {
-      "name": "chelo",
-      "role": "Entry Fragger",
-      "statistcs": {
-        "KDA": "1.08",
-        "HS%": "60%",
-        "Rating": "1.05"
-      }
-    },
-    {
-      "name": "fallen",
-      "role": "AWPer / IGL",
-      "statistcs": {
-        "KDA": "1.10",
-        "HS%": "39%",
-        "Rating": "1.09"
-      }
-    },
-    {
-      "name": "arT",
-      "role": "In-Game Leader",
-      "statistcs": {
-        "KDA": "0.98",
-        "HS%": "47%",
-        "Rating": "0.96"
-      }
+  {
+    "id": "kscerato",
+    "name": "KSCERATO",
+    "role": "Rifler",
+    "statistcs": {
+      "KDA": "1.32",
+      "HS%": "55%",
+      "Rating": "1.18"
     }
-  ]
+  },
+  {
+    "id": "yuurih",
+    "name": "yuurih",
+    "role": "Rifler",
+    "statistcs": {
+      "KDA": "1.25",
+      "HS%": "51%",
+      "Rating": "1.15"
+    }
+  },
+  {
+    "id": "chelo",
+    "name": "chelo",
+    "role": "Entry Fragger",
+    "statistcs": {
+      "KDA": "1.08",
+      "HS%": "60%",
+      "Rating": "1.05"
+    }
+  },
+  {
+    "id": "fallen",
+    "name": "fallen",
+    "role": "AWPer / IGL",
+    "statistcs": {
+      "KDA": "1.10",
+      "HS%": "39%",
+      "Rating": "1.09"
+    }
+  },
+  {
+    "id": "art",
+    "name": "arT",
+    "role": "In-Game Leader",
+    "statistcs": {
+      "KDA": "0.98",
+      "HS%": "47%",
+      "Rating": "0.96"
+    }
+  }
+]

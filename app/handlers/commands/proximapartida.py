@@ -1,6 +1,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes, CommandHandler
-from app.handle_data import load_data, check_match_date
+from app.handle_data import check_match_date
 
 
 MATCHES_URL = "app/data/matches.json"

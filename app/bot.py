@@ -7,7 +7,7 @@ load_dotenv()
 
 async def create_bot():
     bot_token = os.getenv("TOKEN")
-    ngrok_url = os.getenv("NGROK_URL")
+    ngrok_url = os.getenv("WEBHOOK_URL")
 
     app = ApplicationBuilder().token(bot_token).build()
 

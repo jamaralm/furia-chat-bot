@@ -3,13 +3,16 @@ import importlib
 from pathlib import Path
 
 def register_handlers(app):
-    command_path = Path(__file__).parent / 'commands'
+    base_path = Path(__file__).parent
+    handle_dirs = ['commands', 'callbacks']
 
-    for file in os.listdir(command_path):
-        if file.endswith('.py') and not file.startswith('__'):
-            module_name = file[:-3]
-            module_path = f"app.handlers.commands.{module_name}"
-            module = importlib.import_module(module_path)
+    for dir_name in handle_dirs:
+        full_path = base_path / dir_name
+        for file in os.listdir(full_path):
+            if file.endswith('.py') and not file.startswith('__'):
+                module_name = file[:-3]
+                module_path = f"app.handlers.{dir_name}.{module_name}"  # corrigido aqui
+                module = importlib.import_module(module_path)
 
-            if hasattr(module, 'get_handler'):
-                app.add_handler(module.get_handler())
+                if hasattr(module, 'get_handler'):
+                    app.add_handler(module.get_handler())

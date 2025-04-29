@@ -1,7 +1,7 @@
 from telegram import Update, Bot
 from telegram.ext import ContextTypes, CallbackQueryHandler
 from pathlib import Path
-from .proximapartida import check_match_date
+from ..commands.proximapartida import check_match_date
 import os, json, asyncio
 
 NOTIFY_USERS_FILE = Path("app/data/notify_users.json")

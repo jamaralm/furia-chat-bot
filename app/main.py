@@ -3,7 +3,7 @@ from fastapi import FastAPI, Request
 from telegram import Update
 from telegram.ext import Application
 from app.bot import create_bot
-from app.handlers.commands.notify_next_match import start_notify_loop
+from app.handlers.callbacks.notify_next_match import start_notify_loop
 
 app = FastAPI()
 bot_app: Application = None  # variável global
