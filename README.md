@@ -28,6 +28,7 @@ source venv/bin/activate  # ou venv\Scripts\activate no Windows
 
 # Instale as dependências
 pip install -r requirements.txt
+```
 
 ## 📲 Acesse o Bot
 
