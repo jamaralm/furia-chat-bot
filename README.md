@@ -12,23 +12,8 @@ Um bot do Telegram criado para automatizar interações e trazer funcionalidades
 
 - Python 3
 - Telegram Bot API
-- Flask (para receber webhooks)
-- Render (para deploy gratuito e simples)
-
-## 🔧 Instalação Local
-
-```bash
-# Clone o repositório
-git clone https://github.com/jamaralm/furia-chat-bot.git
-cd furia-chat-bot
-
-# Crie um ambiente virtual (opcional, mas recomendado)
-python3 -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
-
-# Instale as dependências
-pip install -r requirements.txt
-```
+- FastAPI
+- Render
 
 ## 📲 Acesse o Bot
 
